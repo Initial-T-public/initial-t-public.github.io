@@ -247,10 +247,10 @@ Status...........: Cracked
 ```
 
 ## user flag
-Remember that we have two open ports, 80 and 22, so I'll try this password on SSH
-This way, we have the user flag, and all we need to do now is elevate our privileges to root level
+Remember that we have two open ports, 80 and 22, so I'll try this password on SSH.
+This way, we have the user flag, and all we need to do now is elevate our privileges to root level.
 
-![Desktop View](/assets/img/2025-10-28-HTB-Converser/reverseshell2.png)
+![Desktop View](/assets/img/2025-10-28-HTB-Converser/user-flag.png)
 _User flag_
 
 
