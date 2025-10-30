@@ -44,9 +44,10 @@ social:
     # The first element serves as the copyright owner's link
     # - https://x.com/KrystianSputo # change to your Twitter homepage
     - https://github.com/Initial-T-public # change to your GitHub homepage
+    - https://www.linkedin.com/company/initialt/
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/company/initialt/
+    
 
 # Site Verification Settings
 webmaster_verifications:
