@@ -1,7 +1,7 @@
 ---
 title: HackTheBox | CodePartTwo
 by: initialt
-date: 2025-11-15 16:26:00 +0100
+date: 2025-11-15 16:26:01 +0100
 categories: [CTF, walk-trough, hackthebox]
 tags: [hackthebox, walk-trough, codeparttwo, ctf]
 image:
