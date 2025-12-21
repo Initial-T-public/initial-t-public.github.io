@@ -11,7 +11,7 @@ image:
 
 # Yippee Ki-yay Christmas Tree Decoration
 
-Die Hard is my wife's and my favorite Christmas movie., so this year, inspired by the [Ajaxjones project](https://www.instructables.com/Christmas-Decoration-Die-Hard-Yippee-Ki-yay-Merry-/) we decided to make our own version. The result was a Christmas tree decoration in the form of John McClane in the Nakatomi ventilation shaft from the first part of the film. The decoration is interactive, the lighter is actually a diode, and there is a speaker at the back of the tunnel. The whole thing is controlled by an ESP32 controller, which launches an HTTP server that can be used to turn the decoration on or off.
+Die Hard is my wife's and my favorite Christmas movie, so this year, inspired by the [Ajaxjones project](https://www.instructables.com/Christmas-Decoration-Die-Hard-Yippee-Ki-yay-Merry-/) we decided to make our own version. The result was a Christmas tree decoration in the form of John McClane in the Nakatomi ventilation shaft from the first part of the film. The decoration is interactive, the lighter is actually a diode, and there is a speaker at the back of the tunnel. The whole thing is controlled by an ESP32 controller, which launches an HTTP server that can be used to turn the decoration on or off.
 
 
 {% include embed/youtube.html id='FPNXE3hnzMo' %}
@@ -20,11 +20,11 @@ I extracted the mp3 files from the movie; there are exactly five of them at this
 
 {% include embed/youtube.html id='UsFlC2yrJ3Y' %}
 
-# Ingredients
+# How is it made?
 
 For it to work, you needed to have:
 
-- ESP-WROOM-32 (You could probably find it cheaper, but I just happened to have it)
+- ESP-WROOM-32 (You could probably find something cheaper, but I just happened to have ESP)
 - 3D print that my wife posted [on Thingiverse](https://www.thingiverse.com/thing:7244868)
 - John's photo from <a href="../../assets/pdf/diehard.pdf" target="_blank">here</a>
 - C++ code [from my repository](https://github.com/Initial-T-public/Yippee-Ki-Yay)
@@ -47,7 +47,7 @@ Upload the code onto the board along with the mp3 files; I use PlatformIO in Vis
 To upload mp3 files use `Upload Filesystem Image`, and to upload a binary `Upload and monitor`.
 You can add your tracks to the /data/mp3/.
 
-LED has a 900ms delay to give John a chance to start the text, for me it makes for better immersion (and matches the sound of the lighter in file 3.mp3)
+LED has a 900ms delay to give John a chance to start speaking, for me it makes better immersion (and matches the sound of the lighter in file 3.mp3)
 
  ![Desktop View](/assets/img/2025-12-21-Yippee-Ki-yay-Merry-Christmas/2.png)
 _Programming_
